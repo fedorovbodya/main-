@@ -23,7 +23,7 @@
     background-color: green;
   }
   
-  em {
+  p>em {
     background-color: blueviolet;
   }
   
