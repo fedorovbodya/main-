@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <p>Застосовується до тегів span, вага 1*</p>*
+        <p>Застосовується до тегів p, вкладених у div, на першому рівні, вага 2*</p>*
+        <p class="text">Застосовується до класів "text", вага 10*</p>*
+        <p id="some-text">Застосовується до id"#some-text", вага 100*</p>*
+        <p title="some-text">Застосовується до атрибутів [title], вага 10*</p>*
+        <p>
+            <em>Застосовується до тегів em, дочірніх тегу p, вага 1*</em>
+        </p>*
+        <p>
+            <i>Застосовується до тегів i, послідовних тегу p, вага 2*</i>
+        </p>*
+        <p style="background-color: gray;">Застосовує вбудований стиль до тегу p, вага 1000*</p>*
+        <p class="text" title="some-text">Застосовується до тегів p, з класом "text" та атрибутом [title], вага 21*</p>*
+        <p id="second-text" class="text second-text" title="some text">Застосовується до тегів p, з id"#some-text",
+            класами "text" і "second-text" та атрибутом [title], вага 131*</p>*
+    </div>
+</body>
+
+</html>

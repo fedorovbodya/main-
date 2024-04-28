@@ -1,0 +1,41 @@
+* {
+    font-weight: 700;
+    font-size: 18px;
+  }
+  
+  div > p {
+    background-color: yellow;
+  }
+  
+  p {
+    background-color: aqua;
+  }
+  
+  .text {
+    background-color: blue;
+  }
+  
+  #some-text {
+    background-color: red;
+  }
+  
+  [title] {
+    background-color: green;
+  }
+  
+  em {
+    background-color: blueviolet;
+  }
+  
+  p i {
+    background-color: brown;
+  }
+  
+  p.text[title] {
+    background-color: pink;
+  }
+  
+  p#second-text.text.second-text[title] {
+    background-color: orange;
+  }
+  
